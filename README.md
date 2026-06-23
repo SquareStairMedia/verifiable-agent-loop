@@ -46,6 +46,11 @@ The harness is provider-agnostic. Your agent command can call a local CLI, an in
 python -m pip install -e .
 ```
 
+## Verify the installation:
+
+```bash
+agent-loop --help
+
 ## Configure a loop
 
 Copy `examples/python-project.toml` and change four things:
